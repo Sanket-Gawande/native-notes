@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "drop",
-    "slug": "drop",
+    "slug": "notes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sanketgawande.notes"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9b2e4c81-a928-4d88-aa24-e15382f46742"
+      }
+    },
+    "owner": "sanket-gawande"
   }
 }
